@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>formulario de cadastro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='formulario.css'>
+    <script src='formulario.js'></script>
+</head>
+<body>
+
+    <form id="formulario">
+
+        <div id="linha1">
+            <h3 id="cad">Cadastre-se</h3>
+            <label id="nome">nome: </label>
+            <input id="nome1" type="text" placeholder="digite seu nome" class="nome"><br><br>
+
+            <label id="data">data de nascimento: </label>
+            <input id="nascimento1" type="date" class="data"><br><br>
+
+            <label id="tell">Telefone: </label>
+            <input id="telefone" type="tel" placeholder="digite seu telefone" class="telefone"><br><br>
+
+            <label id="cpf">CPF: </label>
+            <input id="cpf1" type="number" placeholder="digite seu CPF" class="cpf"><br><br>
+
+            <label id="email">email: </label>
+            <input id="email1" type="email" placeholder="digite seu email" class="email"><br><br>
+            <label id="senha">senha: </label>
+            <input id="senhax" type="password" placeholder="digite sua senha" class="senha"><br><br>
+            <label id="senhaT"> confirme sua senha: </labbel>
+            <input id="senhaConf" type="password" placeholder="digite sua senha novamente"><br><br>
+        </div>
+        <div id="linha1">
+            <h3 id="cad">informe seu endereço</h3>
+
+            <label id="cep">cep: </label>
+            <input id="cep1" type="number" placeholder="digite seu  cep" class="cep">
+
+            <label id="rua">rua: </label>
+            <input id="rua1" type="text" placeholder="digite sua rua" class="rua"><br><br>
+
+            <label id="bairro">bairro: </label>
+            <input id="bairro1" type="text" placeholder="digite seu bairro" class="bairro">
+
+            <label id="cidade">cidade: </label>
+            <input id="cidade1" type="text" placeholder="digite sua cidade" class="cidade"><br><br>
+
+            <label id="estado">estado: </label>
+            <input id="estado1" type="text" placeholder="digite seu estado" class="estado">
+
+            <label id="numero">número: </label>
+            <input id="numero1" type="number" placeholder="digite seu numero" class="numero"><br><br>
+        </div>
+    </form>
+    <form>
+        <button onclick="validar()" class="aviso">ACESSAR</button>
+    </form>
+
+</body>
+
+</html>
